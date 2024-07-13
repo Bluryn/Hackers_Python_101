@@ -1,0 +1,12 @@
+Set of instruction in python have their own Structure.
+Python language is base on indentation.
+Choose Tab or space or double space (In my case vscode automaticaly sets tabs)
+
+If you mess your indetation syntax you'll get an error message
+
+Python will interprate "\" as the continuity of one line if you backspace + tab ex:
+    x = 1 + 2 \
+        + 3
+Indentation within a line does not matter.
+
+Python build-in help on print function can be called with print( ... )
