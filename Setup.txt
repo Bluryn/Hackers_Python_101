@@ -1,0 +1,2 @@
+1) Setup a Kali Linux VM
+2) Setup your Python environnement and Interpretor
