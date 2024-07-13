@@ -16,10 +16,10 @@ print(type(name_length)) #Python will try to guess the type (integer)
 #Specify type within declaration#
 #################################
 name_length = "4" #Here it a string !   
-print(type(name_length)) #will return str
+print(type(name_length)) #will return <class 'str'>
 
 name_length = int("4") #Here it an integer !   
-print(type(name_length)) #will return int
+print(type(name_length)) #will return <class 'int'>
 
 name = int("name") #Here if we print we will get an error
 
@@ -36,7 +36,7 @@ Name_length = 5
 ##################
 
 name_list = ["name", "oui", "non"]
-print(type(name_list)) # will return list
+print(type(name_list)) # will return <class 'list'>
 
 name1, name2, name3 = name_list #It will assign in order the values in the list for each variable
 #we can print them separately
@@ -49,35 +49,35 @@ print(name3)
 ###################
 
 name_tuple = ("name", "oui", "non")
-print(type(name_tuple)) #will print tuple
+print(type(name_tuple)) #will print <class 'tuple'>
 
 ###################
 #Tuple dictionnary#
 ###################
 
 name_dictionnary = {"name", "oui", "non"}
-print(type(name_dictionnary)) #will print dictionnary
+print(type(name_dictionnary)) #will print <class 'dictionnary'>
 
 ###############
 #Tuple boolean#
 ###############
 
 name_boolean = True
-print(type(name_boolean)) #will print boolean
+print(type(name_boolean)) #will print <class 'bool'>
 
 #############
 #Tuple range#
 #############
 
 name_range = range(6)
-print(type(name_range)) #will print range
+print(type(name_range)) #will print <class 'range'>
 
 #############
 #Tuple bytes#
 #############
 
 name_bytes = b"name"
-print(type(name_bytes)) #will print bytes
+print(type(name_bytes)) #will print <class 'bytes'>
 
 print(name_tuple)       # ("name", "oui", "non")
 print(name_list)        # ["name", "oui", "non"]
