@@ -1,0 +1,15 @@
+How to run a python Script ?
+
+Simply Create a ".py" file with the desired operation.
+ex :
+    calculate.py
+        print(1+1)
+call the script :
+python3 calculate.py
+
+You can also specify the interpretor :
+    calculate.py
+            #!/bin/python3
+            print(1+1)
+call the script :
+    ./calculate.py
