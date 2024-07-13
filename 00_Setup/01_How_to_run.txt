@@ -13,3 +13,18 @@ You can also specify the interpretor :
             print(1+1)
 call the script :
     ./calculate.py
+
+"Main" is not mandatory as other language
+in the example we had ti the script:
+    calculate.py
+            #!/bin/python3
+
+            print(1+1)
+            print(__name__)
+            if __name__ == "__main__":
+                print("Do IT")
+The output will be :
+    2
+    do something
+"__main__" was assigned to the variable "__name__" 
+Because the interpretor is running the current file as the main programm
