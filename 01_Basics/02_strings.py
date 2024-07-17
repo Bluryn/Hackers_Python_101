@@ -40,3 +40,8 @@ print(String5.index("string")) #will return 6
 print(String5.upper())
 print(String5.lower())
 
+#Careful spaces are counted in a String
+bordel_string= "    Messy String =( "
+print(bordel_string)
+#We have a function to clean the additionnal spaces in the string
+print(bordel_string.strip())
