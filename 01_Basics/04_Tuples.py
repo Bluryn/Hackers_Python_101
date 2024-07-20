@@ -18,7 +18,7 @@ print(tuples_combined) #Will print the 6 elements from the combined tuple
 print(type(tuples_combined)) #Still a Tuple
 
 #We can also unpack a tuple
-item1, item2, item3 = tuples_items #if we add an "itemx" to the list it will fail because we only have 3 element in the tuple
+item1, item2, item3 = tuple_items #if we add an "itemx" to the list it will fail because we only have 3 element in the tuple
 print(item1)
 print(item2)
 print(item3)
