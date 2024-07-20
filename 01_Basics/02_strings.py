@@ -17,11 +17,11 @@ String5 = 'I\'m a string =)'
 print(String5)
 
 String6 = "I\"m a string\n I\"m on a newline =)"
-Print(String6)
+print(String6)
 
 String7 = "a" * 10
 #Python is capable of multiplying strings
-Print(String7)
+print(String7)
 
 #We can also enumrate the number of characters
 print(len(String7))
