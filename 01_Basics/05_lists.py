@@ -45,4 +45,22 @@ list4 = [8, 12, 5, 6, 17, 2]
 list4.sort()                    # will sort the list
 list4.sort(reverse=True)        # will reverst sort the list
 
+#We can't copy list :
+# ex :
+list5 = list4
+print(list4)
+print(list5)
 
+list5[2] = "X"
+print(list5)                    # 5 will be replace by X
+print(list4)                    # 5 will also be replace by X because there list 5 is referenced to 4 not copied !
+# to avoid this, we need to use the copy() function
+
+list6 = list4.copy()
+list6[2] = "A"
+print(list6)                    # third value will be A (replaces X)
+print(list4)                    # third value will still be X
+
+list7 = ["1", "2", "3"]
+list8 = list(map(float, list7))
+print(list8)                    # all mapped element, so integers will be mapped to corresponding float
