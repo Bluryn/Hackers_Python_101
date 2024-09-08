@@ -1,4 +1,6 @@
-#Simple Definition
+##################
+#Sets Definition #
+##################
 set1 = {"a", "b", "c"}
 print(set1)                 #run this multiple time and you'll see that sets doesn't have any particular order with
 print(type(set1))
@@ -12,20 +14,26 @@ print(set3)                 #Will print all of it
 set4 = {"b", 1, False}
 print(set4)                 #Will print all of it
 
-# Modify Value
+################
+# Modify Value #
+################
 set1.add("d")
 print(set1)                 #Will return {'a','b','c','d'} in no particular order
 
 set3.update(set4)           #Here we are update set 3 with set 4
 print(set3)                 #Will return {'a',0,True,'b'} => Because 0=FAlse and 1=True so duplicate -> it will only keep one of each and in no particular order
 
-# Combination
+###############
+# Combination #
+###############
 list1 = ["a", "b", "c"]     # ['a', 'b', 'c']
 set4  = {4, 5, 6}           # {4, 5, 6}
 set4.update(list1)         
 print(set4)                 # Will return {4, 5, 6, 'a', 'b', 'c'}
 
-# Remove
+##########
+# Remove #
+##########
 
 set4.remove(1)
 print(set4)                 # Will return an error because value 1 is not in the set
