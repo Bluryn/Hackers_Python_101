@@ -1,4 +1,7 @@
-#Tuples Definition
+####################
+#Tuples Definition #
+####################
+
 tuple_items = ("item1", "item2", "item3") #Tuples of Strings
 print(tuple_items)
 print(type(tuple_items)) #But still a Tuple
@@ -11,7 +14,9 @@ tuples_repeat = ('Combine!' ,) * 4  #Here we can repeat a string with a seperato
 print(tuples_repeat)
 print(type(tuples_numbers)) #But still a Tuple
 
-#Append item
+###############
+#Append item  #
+###############
 
 tuples_combined = tuple_items + tuples_numbers
 print(tuples_combined) #Will print the 6 elements from the combined tuple
@@ -23,12 +28,17 @@ print(item1)
 print(item2)
 print(item3)
 
-#Evaluation 
+#############
+#Evaluation #
+#############
 print("item1" in tuple_items) #True
 print("item2" in tuple_items) #True
 print("itemx" in tuple_items) #False
 
-#Counting and Index
+#####################
+#Counting and Index #
+#####################
+
 print(tuple_items[0]) #item1
 print(tuple_items[1]) #item2
 print(tuple_items[2]) #item3

@@ -1,12 +1,16 @@
-#List Definition
+##################
+#List Definition #
+##################
 list1 = ["A", "B", "C", "D" , "E", "F"]
 print(list1)
 
-list2 = ["A", 1, 2.0, ["A"], [], list(), ("A"), false]
+list2 = ["A", 1, 2.0, ["A"], [], list(), ("A"), False]
 print(list2)
 print(type(list2))
 
-#Play with indexation
+#############
+#Indexation #
+#############
 print(list1[0])
 print(list1[-1])
 
@@ -27,7 +31,9 @@ list1 = ["A"] + list1 #will add the list with A into the list, always in front
 print(list1) # here it's like re-adding the letter A to list
 list1.append("G")   #will add G at the end of the list
 
-#Counting
+###########
+#Counting #
+###########
 print(max(list1))               # will return the maximum value (G)
 print(min(list1))               # will return the minimum value (A)
 print(list1.index("C"))         # will verify the index of the desired element of the list

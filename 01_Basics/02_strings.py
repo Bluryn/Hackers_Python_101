@@ -1,3 +1,6 @@
+#########################
+#Definition of a String #
+#########################
 String1 = "String =)"
 String2 = 'Also string =)'
 
